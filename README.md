@@ -1,6 +1,6 @@
 # DPAS-CsiNet: DualPath Adaptive Spectral CsiNet
 
-> CsiNet(Wen et al., 2018) 대비 독창적인 성능 향상 방법론
+> CsiNet(Wen et al., 2018) 에서 아이디어를 추가한 성능 향상 방법론
 
 ---
 
@@ -22,7 +22,7 @@
 - Path B는 수평 방향(지연축)의 긴 상관을 명시적으로 포착
 - 두 경로를 융합해 공간+지연 도메인의 이중 표현(dual representation) 획득
 
-**기존 논문과의 차별점**: CsiNet+는 다중 해상도(multi-resolution) 3×3/5×5 커널을 사용하나,
+**기존 방법과의 차별점**: CsiNet+는 다중 해상도(multi-resolution) 3×3/5×5 커널을 사용하나,
 Path B는 물리적 의미(지연 도메인 수평 상관)에 근거한 비대칭 커널이라는 점에서 상이합니다.
 
 ---
@@ -37,7 +37,7 @@ Path B는 물리적 의미(지연 도메인 수평 상관)에 근거한 비대�
 - 압축률(CR)에 따라 자동으로 다른 주파수 대역에 집중
 - 채널 어텐션(SE-Net, CBAM)과 달리: FFT magnitude를 게이팅 신호로 사용 → 물리 채널 구조 직접 활용
 
-**기존 논문과의 차별점**: 기존 어텐션 메커니즘(TransNet, CRNet)은 공간/채널 어텐션이나,
+**기존 방법과의 차별점**: 기존 어텐션 메커니즘(TransNet, CRNet)은 공간/채널 어텐션이나,
 AFG는 **FFT 도메인 magnitude 기반 어텐션**으로 구조적 차이가 있습니다.
 
 ---
