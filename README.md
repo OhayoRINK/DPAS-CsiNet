@@ -230,26 +230,13 @@ DualPath_CsiNet/
 
 ## 📚 References
 
-```bibtex
-@article{wen2018csinet,
-  title={Deep Learning for Massive MIMO CSI Feedback},
-  author={Wen, Chao-Kai and Shih, Wan-Ting and Jin, Shi},
-  journal={IEEE Wireless Communications Letters},
-  volume={7},
-  number={5},
-  pages={748--751},
-  year={2018}
-}
+1. C. K. Wen, W. T. Shih, and S. Jin,  
+   “Deep Learning for Massive MIMO CSI Feedback,”  
+   *IEEE Wireless Communications Letters*, vol. 7, no. 5, pp. 748–751, 2018.
 
-@article{liu2012cost2100,
-  title={The COST 2100 MIMO Channel Model},
-  author={Liu, Linglong et al.},
-  journal={IEEE Wireless Communications},
-  volume={19},
-  number={6},
-  pages={92--99},
-  year={2012}
-}
+2. L. Liu et al.,  
+   “The COST 2100 MIMO Channel Model,”  
+   *IEEE Wireless Communications*, vol. 19, no. 6, pp. 92–99, 2012.
 ```
 
 ---
