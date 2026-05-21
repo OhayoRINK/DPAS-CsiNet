@@ -110,7 +110,7 @@ python compare.py --use_synthetic --epochs 300
 
 ### 실제 COST2100 데이터 사용 (데이터 다운로드 후)
 ```bash
-# https://www.dropbox.com/scl/fo/... 에서 데이터 다운로드 후 ./data/ 폴더에 배치
+# (https://github.com/sydney222/Python_CsiNet) 에서 데이터 다운로드 후 ./data/ 폴더에 배치
 python train.py --model dpas --scenario indoor --cr 4 --epochs 1000
 python compare.py --scenario indoor --epochs 1000
 ```
@@ -146,24 +146,3 @@ DualPath_CsiNet/
 ```
 
 ---
-
-## 🔬 독창성 근거
-
-| 기존 논문 | 핵심 아이디어 | DPAS-CsiNet과의 차이 |
-|-----------|------------|-------------------|
-| CsiNet (2018) | 단일 CNN 오토인코더 | 이중 경로 + 주파수 게이팅 추가 |
-| CsiNet-LSTM (2019) | 시계열 LSTM | 단일 프레임, 완전히 다른 방향 |
-| CsiNet+ (2020) | 다중 해상도 CNN | 비대칭 지연-도메인 커널 + AFG |
-| CRNet (2020) | 멀티-스케일 enc/dec | 스펙트럼 정제 블록 추가 |
-| TransNet (2021+) | Self-Attention | FFT 기반 게이팅 (연산량 적음) |
-
-→ **이중 경로(물리 기반) + FFT 게이팅 + 스펙트럼 잔차 정제** 조합은 기존 저명 학술지에서 보고되지 않은 방향
-
----
-
-## 💡 논문화 방향 제안
-
-1. COST2100 Indoor/Outdoor 두 시나리오에서 CR=1/4,1/8,1/16,1/32 전체 실험
-2. Ablation study: AFG만 추가, SRB만 추가, 이중 경로만 추가 시 각각의 기여도 분석
-3. 파라미터 수 vs NMSE 트레이드오프 분석 (모델 효율성)
-4. 투고 대상: IEEE Communications Letters, IEEE Wireless Communications Letters, IEEE Access
