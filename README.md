@@ -230,21 +230,17 @@ DualPath_CsiNet/
 
 ## 📚 References
 
-1. C. K. Wen, W. T. Shih, and S. Jin,  
-   “Deep Learning for Massive MIMO CSI Feedback,”  
+1. C. K. Wen, W. T. Shih, and S. Jin,
+   “Deep Learning for Massive MIMO CSI Feedback,”
    *IEEE Wireless Communications Letters*, vol. 7, no. 5, pp. 748–751, 2018.
 
-2. L. Liu et al.,  
-   “The COST 2100 MIMO Channel Model,”  
+2. L. Liu et al.,
+   “The COST 2100 MIMO Channel Model,”
    *IEEE Wireless Communications*, vol. 19, no. 6, pp. 92–99, 2012.
-```
 
 ---
 
-
----
-
-## Paper
+## 📄 Paper
 
 **Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems**
 
@@ -253,7 +249,7 @@ DualPath_CsiNet/
 
 ---
 
-## Future Work
+## 🔬 Future Work
 
 Planned future extensions include:
 
@@ -265,5 +261,3 @@ Planned future extensions include:
 
 ---
 
-
----
