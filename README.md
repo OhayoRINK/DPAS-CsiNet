@@ -228,7 +228,7 @@ DualPath_CsiNet/
 
 ---
 
-## 📚 References
+## References
 
 1. C. K. Wen, W. T. Shih, and S. Jin,
    “Deep Learning for Massive MIMO CSI Feedback,”
@@ -240,7 +240,7 @@ DualPath_CsiNet/
 
 ---
 
-## 📄 Paper
+## Paper
 
 **Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems**
 
@@ -249,7 +249,7 @@ DualPath_CsiNet/
 
 ---
 
-## 🔬 Future Work
+## Future Work
 
 Planned future extensions include:
 
