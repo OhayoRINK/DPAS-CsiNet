@@ -1,0 +1,17 @@
+# DPAS-CsiNet 의존성
+# Windows 11 + RTX 3070 (CUDA 12.x) 환경
+
+# ── PyTorch (CUDA 12.1 빌드) ──
+# 설치 명령: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── 수치 연산 ──
+numpy>=1.24.0
+scipy>=1.11.0       # .mat 파일 로드 (COST2100 데이터)
+
+# ── 시각화 ──
+matplotlib>=3.7.0
+
+# ── 기타 ──
+tqdm>=4.65.0
