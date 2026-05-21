@@ -6,7 +6,7 @@ PyTorch implementation of **DPAS-CsiNet**, a deep learning-based CSI feedback co
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository implements **DPAS-CsiNet (Dual-Path Adaptive Spectral CsiNet)**, proposed for improving CSI feedback compression performance in Massive MIMO FDD systems.
 
@@ -20,7 +20,7 @@ These modules are designed to better exploit both spatial and spectral structure
 
 ---
 
-## 🧠 Motivation
+## Motivation
 
 In Massive MIMO FDD systems, accurate CSI feedback is essential for effective beamforming. However, CSI feedback overhead increases significantly as the number of antennas and subcarriers grows.
 
@@ -34,7 +34,7 @@ DPAS-CsiNet addresses these issues by combining dual-path feature extraction wit
 
 ---
 
-## 🏗 Proposed Architecture
+## Proposed Architecture
 
 ### 1. Dual-Path Encoder
 
@@ -98,7 +98,7 @@ The SRB compensates for spectral residual errors that are difficult to recover u
 
 ---
 
-## 📐 Overall Pipeline
+## Overall Pipeline
 
 ```text
 Input CSI (2×32×32)
@@ -118,7 +118,7 @@ Recovered CSI
 
 ---
 
-## 📊 Experimental Setup
+## Experimental Setup
 
 ### Dataset
 
@@ -148,7 +148,7 @@ Recovered CSI
 
 ---
 
-## 📈 Performance Comparison
+## Performance Comparison
 
 ### Indoor Scenario
 
@@ -172,7 +172,7 @@ The proposed DPAS-CsiNet consistently achieves lower NMSE and higher correlation
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Environment
 
@@ -189,7 +189,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Training
+## Training
 
 ### Synthetic Dataset (Quick Test)
 
@@ -210,24 +210,6 @@ Download COST2100 dataset and place it inside the `./data/` directory.
 ```bash
 python train.py --model dpas --scenario indoor --cr 4 --epochs 1000
 ```
-
----
-
-## 📉 Model Comparison
-
-```bash
-python compare.py --scenario indoor --epochs 1000
-```
-
-This script compares:
-
-* NMSE
-* Correlation coefficient (ρ)
-* Compression-ratio performance
-
-between baseline CsiNet and DPAS-CsiNet.
-
----
 
 ## 📁 Repository Structure
 
@@ -272,7 +254,7 @@ DualPath_CsiNet/
 
 ---
 
-## 📄 Paper
+## Paper
 
 **Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems**
 
@@ -281,7 +263,7 @@ DualPath_CsiNet/
 
 ---
 
-## 🔬 Future Work
+## Future Work
 
 Planned future extensions include:
 
