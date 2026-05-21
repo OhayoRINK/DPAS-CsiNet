@@ -242,13 +242,15 @@ DualPath_CsiNet/
 ---
 
 
+---
+
 ## Paper
-```
+
 **Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems**
 
 * Hanbat National University
 * Department of Information and Communication Engineering
-```
+
 ---
 
 ## Future Work
@@ -260,5 +262,8 @@ Planned future extensions include:
 * Lightweight deployment optimization
 * Transformer-based spectral modeling
 * Real-world channel generalization experiments
+
+---
+
 
 ---
