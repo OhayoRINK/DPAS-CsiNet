@@ -205,7 +205,7 @@ python train.py --model csinet --cr 4 --use_synthetic --epochs 300
 
 ### COST2100 Dataset
 
-Download COST2100 dataset and place it inside the `./data/` directory. Can download Python_CsiNet github repository.
+Download COST2100 dataset and place it inside the `./data/` directory. Can download [Python_CsiNet](https://github.com/sydney222/Python_CsiNet) github repository.
 
 ```bash
 python train.py --model dpas --scenario indoor --cr 4 --epochs 1000
