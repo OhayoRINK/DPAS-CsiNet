@@ -217,12 +217,11 @@ python train.py --model dpas --scenario indoor --cr 4 --epochs 1000
 DualPath_CsiNet/
 ├── models/
 │   ├── dpas_csinet.py       # Proposed DPAS-CsiNet
-│   └── csinet_baseline.py   # Original CsiNet baseline
+│   └── csinet_baseline.py   # Original CsiNet baseline(not use)
 ├── dataset.py               # COST2100 / Synthetic dataset loader
 ├── train.py                 # Single-model training
 ├── utils.py                 # Metrics and utilities
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 ---
@@ -241,10 +240,9 @@ DualPath_CsiNet/
 
 ## Paper
 
-**Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems**
+**이중 경로 및 적응형 주파수 게이팅 기반 대규모 MIMO CSI 피드백 압축 기법**
 
-* Hanbat National University
-* Department of Information and Communication Engineering
+* [Dual-Path and Adaptive Frequency Gating Based CSI Feedback Compression for Massive MIMO Systems](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12964548)
 
 ---
 
